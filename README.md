@@ -29,4 +29,5 @@ The coefficients reveal that **Customer Service Calls** and **International Plan
 
 ## 5. Repository Structure
 * `telecom_churn_model.ipynb`: Complete documented pipeline.
-* `data/`: Contains the BigML 80/20 split datasets.
+* the 2 .csv files contain the training and testing datasets.
+* the 3 .png files illustrate the prominent results of the project.
