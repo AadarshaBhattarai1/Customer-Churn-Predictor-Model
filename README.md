@@ -1,4 +1,4 @@
-# Predictive Analytics for Customer Attrition (Churn)
+# Predictive Analytics for Customer Churn
 **Independent Machine Learning Project | Binary Classification & Statistical Analysis**
 
 ## 1. Project Overview
@@ -20,14 +20,14 @@ The model was optimized for **Recall**, ensuring we capture the maximum number o
 ![Confusion Matrix](confusion_matrix.png)
 
 ### Key Drivers of Churn (Feature Importance)
-The coefficients reveal that **Customer Service Calls** and **International Plan** status are the most critical indicators of attrition.
+The coefficients reveal that **Customer Service Calls** and **International Plan** status are the most critical indicators of churning.
 ![Feature Importance](feature_importance.png)
 
 ## 4. Business Insights
-* **Service Quality:** High service call frequency is a "red flag" for imminent churn, suggesting a need for a proactive "service recovery" protocol.
+* **Service Quality:** High service call frequency is a key indicator for imminent churn, suggesting a need for a proactive service-recovery protocol.
 * **Usage Thresholds:** Total day charges show a linear relationship with churn, indicating price-sensitivity among high-volume users.
 
 ## 5. Repository Structure
-* `telecom_churn_model.ipynb`: Complete documented pipeline.
+* `telecom_churn_model.ipynb`: Complete documented program.
 * the 2 .csv files contain the training and testing datasets.
 * the 3 .png files illustrate the prominent results of the project.
